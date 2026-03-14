@@ -1,10 +1,12 @@
 import Hero from "@/features/hero/Hero";
 import FeaturesGrid from "@/features/features-grid/FeaturesGrid";
+import AboutSection from "@/features/about-section/AboutSection";
 
 export default function HomePage() {
   return (
     <>
       <Hero />
+      <AboutSection />
       <FeaturesGrid />
       <section style={{ backgroundColor: 'rgba(99, 102, 241, 0.05)', textAlign: 'center' }}>
         <div className="container">
