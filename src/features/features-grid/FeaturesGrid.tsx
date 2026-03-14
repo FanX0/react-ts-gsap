@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { useGSAP } from "@/shared/lib/gsap";
-import { featuresGridReveal } from "./features.anim";
+import { featuresGridReveal } from "./features.animation";
 import { Card } from "@/components/Card";
 import { Layout, Cpu, Gauge, Shield } from "lucide-react";
 

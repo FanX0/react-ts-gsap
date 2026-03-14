@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { useGSAP } from "@/shared/lib/gsap";
-import { heroReveal } from "./hero.anim";
+import { heroReveal } from "./hero.animation";
 import { Button } from "@/components/Button";
 
 export default function Hero() {
